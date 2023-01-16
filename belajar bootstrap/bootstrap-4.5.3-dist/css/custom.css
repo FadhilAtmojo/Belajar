@@ -1,0 +1,73 @@
+
+.navbar{
+    font-family: poppins;
+    font-size: 14px;
+}
+
+.navbar .btn-primary{
+    background-color: #FF9900;
+    border:0;
+    padding: 11px 25px;
+    font-weight: 600;
+}
+
+.navbar .btn-secondary{
+    background-color: white;
+    border: 1px solid #BCD0E5;
+    color: #173A56;
+    font-weight: 600;
+    padding: 10px 24px;
+}
+
+.btn-secondary:hover{
+    background-color: none;
+    border: 1px solid  #95aac0;
+    color: #173A56;
+}
+
+.herobwa .btn-primary{
+    background-color: #FF9900;
+    border:0;
+    padding:15px 41px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: poppins;
+}
+.btn-primary:hover{
+    background-color: #bb7000;
+    border:0;
+}
+
+.herobwa h1{
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 44px;
+    color: #2F281E;
+}
+
+.herobwa p{
+    font-family: poppins;
+    font-weight: 300;
+    color: #2F281E;
+}
+
+@media (max-width: 340px) { 
+    .navbar img {
+        max-width: 160px;
+    }
+    .navbar .btn-primary{
+        background-color: #FF9900;
+        border:0;
+        padding: 11px 25px;
+        font-weight: 600;
+    }
+    .navbar .btn-secondary{
+        background-color: white;
+        border: 1px solid #BCD0E5;
+        color: #173A56;
+        font-weight: 600;
+        padding: 10px 24px;
+        margin: 0 !important;
+    }
+ }
+
