@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    border: 1px solid black;
+    background-color: azure;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h3{
+    width: fit-content;
+    background-color: azure;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+button{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: azure;
+    margin: 20px;
+}
+
+.conntainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.conntainerInside{
+    width: fit-content;
+}
+
+#btn-fav{
+    margin-top: 30px;
+}
+
+.bg-salmon{background-color: salmon ;}
+
+.boxView{
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+}
+
+.merah{
+    background-color: red;
+}
+
+.biru{
+    background-color: blue;
+}
+
+.hijau{
+    background-color: green;
+}
