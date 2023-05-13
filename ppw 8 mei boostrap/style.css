@@ -1,0 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+span.atmojo{
+    color: #576EE0;
+}
+
+#jumbotron-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#jumbotron-2{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-primary-jumbotron{
+    background-color: #576EE0;
+}
+
